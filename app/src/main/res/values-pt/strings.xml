@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shop List</string>
+
+    <!-- Common actions -->
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_create">Criar</string>
+    <string name="cd_back">Voltar</string>
+
+    <!-- Recurrence intervals -->
+    <string name="interval_daily">Diário</string>
+    <string name="interval_weekly">Semanal</string>
+    <string name="interval_monthly">Mensal</string>
+
+    <!-- Categories -->
+    <string name="categories_title">Categorias</string>
+    <string name="categories_empty">Ainda não há categorias. Toque em + para adicionar uma.</string>
+    <string name="cd_new_category">Nova categoria</string>
+    <string name="cd_rename_category">Renomear %1$s</string>
+    <string name="cd_delete_category">Excluir %1$s</string>
+    <string name="new_category_dialog_title">Nova categoria</string>
+    <string name="rename_category_dialog_title">Renomear categoria</string>
+    <string name="delete_category_dialog_title">Excluir %1$s?</string>
+    <string name="delete_category_dialog_message">Os produtos desta categoria precisarão ser reatribuídos antes que ela possa ser excluída.</string>
+
+    <!-- Category products -->
+    <string name="cd_new_product">Novo produto</string>
+    <string name="category_products_empty">Ainda não há produtos nesta categoria. Toque em + para adicionar um.</string>
+    <string name="cd_delete_product">Excluir %1$s</string>
+    <string name="delete_product_dialog_title">Excluir %1$s?</string>
+    <string name="delete_product_dialog_message">Este produto será removido desta categoria.</string>
+    <string name="new_product_dialog_title">Novo produto</string>
+    <string name="label_name">Nome</string>
+    <string name="label_default_unit_optional">Unidade padrão (opcional)</string>
+
+    <!-- Shopping lists -->
+    <string name="my_lists_title">Minhas listas</string>
+    <string name="cd_new_list">Nova lista</string>
+    <string name="shopping_lists_empty">Ainda não há listas de compras. Toque em + para começar uma.</string>
+    <string name="items_checked_progress">%1$d/%2$d marcados</string>
+    <string name="no_items_yet">Ainda não há itens</string>
+    <string name="cd_more_options">Mais opções</string>
+    <string name="action_rename">Renomear</string>
+    <string name="action_clone">Duplicar</string>
+    <string name="action_make_recurring">Tornar recorrente</string>
+    <string name="new_list_dialog_title">Nova lista</string>
+    <string name="rename_list_dialog_title">Renomear lista</string>
+    <string name="delete_list_dialog_title">Excluir %1$s?</string>
+    <string name="delete_list_dialog_message">Isso removerá permanentemente a lista e seus itens.</string>
+    <string name="make_recurring_dialog_title">Tornar \"%1$s\" recorrente</string>
+    <string name="clone_name_suffix">%1$s cópia</string>
+
+    <!-- List detail -->
+    <string name="cd_add_item">Adicionar item</string>
+    <string name="list_detail_empty">Ainda não há itens. Toque em + para adicionar um.</string>
+    <string name="cd_remove_item">Remover %1$s</string>
+    <string name="category_header_title">%1$s (%2$d)</string>
+    <string name="cd_collapse">Recolher</string>
+    <string name="cd_expand">Expandir</string>
+    <string name="cd_decrease_quantity">Diminuir quantidade</string>
+    <string name="cd_increase_quantity">Aumentar quantidade</string>
+    <string name="priority_low">Baixa</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_high">Alta</string>
+    <string name="cd_priority">Prioridade: %1$s. Toque para alterar.</string>
+
+    <!-- Add item sheet -->
+    <string name="search_products_label">Buscar produtos</string>
+    <string name="create_new_product">Criar um novo produto</string>
+    <string name="create_named_product">Criar \"%1$s\"</string>
+    <string name="category_button_label">Categoria: %1$s</string>
+
+    <!-- Recurring templates -->
+    <string name="recurring_lists_title">Listas recorrentes</string>
+    <string name="cd_new_recurring_list">Nova lista recorrente</string>
+    <string name="recurring_empty">Ainda não há listas recorrentes. Toque em + para configurar uma.</string>
+    <string name="action_change_interval">Alterar intervalo</string>
+    <string name="action_turn_off_recurring">Desativar recorrência</string>
+    <string name="change_interval_dialog_title">Alterar intervalo de \"%1$s\"</string>
+    <string name="delete_template_dialog_title">Excluir \"%1$s\"?</string>
+    <string name="delete_template_dialog_message">Este modelo recorrente será removido. As listas já geradas não serão afetadas.</string>
+    <string name="new_recurring_list_dialog_title">Nova lista recorrente</string>
+    <string name="not_scheduled">Não agendada</string>
+    <string name="recurring_next_due">%1$s Próxima: %2$s</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_lists">Listas</string>
+    <string name="tab_categories">Categorias</string>
+    <string name="tab_recurring">Recorrentes</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
+    <string name="cd_settings">Configurações</string>
+    <string name="language_label">Idioma</string>
+    <string name="language_system_default">Padrão do sistema</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_french">Français</string>
+    <string name="language_portuguese">Português</string>
+</resources>
